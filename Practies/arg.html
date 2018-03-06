@@ -1,0 +1,26 @@
+<html>
+<body>
+
+<h1>Sum of all arguments</h1>
+<input id="demo" name="value" value=" " />
+<button type="button"  onclick="add()" >SUM</button><br><br>
+<input id="result" name="value" value=" " />
+
+<script>
+    function add() {
+    var res = 0;
+    var x = document.getElementById("demo").value.split(",");
+    
+    for (var i = 0; i < x.length; i++) {
+        res += Number(x[i]); 
+    }
+    
+        document.getElementById("result").value = res;    
+    }
+    
+</script>
+
+</body>
+</html>
+
+

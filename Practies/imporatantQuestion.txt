@@ -1,0 +1,2 @@
+CONSTRUCTION FUNCTION
+Constructors are like regular functions, but we use them with the "new" keyword. There are two types of constructors: native (aka built-in) constructors like Array and Object, which are available automatically in the execution environment at runtime; and custom constructors, which define properties and methods for your own type of object.A constructor is useful when you want to create multiple similar objects with the same properties and methods.
