@@ -236,7 +236,7 @@ header {
 
 #skills
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/library.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(img/library.jpg);
     background-size: cover;
     background-position: center;
 
@@ -271,9 +271,9 @@ header {
 .skills-photos li {
 
     list-style: none;
-    display: block;
+    display: inline-block;
     float: left;
-    width: 33%;
+    width: 25%;
 
 }
 
